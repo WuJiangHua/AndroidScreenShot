@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/screen_shot_dialog_bg"
+              android:gravity="center"
+              android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/iv_screen_shot"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:minHeight="125dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/tv_issue_callback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:drawableRight="@drawable/screen_shot_icon_edit"
+        android:text="意见反馈"
+        android:textColor="#fff"
+        android:textSize="13dp"
+        />
+</LinearLayout>
